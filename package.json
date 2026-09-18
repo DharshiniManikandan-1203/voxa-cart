@@ -1,0 +1,26 @@
+{
+  "name": "voxaflow-monorepo",
+  "version": "1.0.0",
+  "description": "VoxaFlow — Multi-Merchant Voice AI Orchestration & Commerce Platform",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm.cmd --prefix services/api-gateway run dev",
+    "dev:frontend": "npm.cmd --prefix apps/web run dev",
+    "dev:ai": "python services/ai-orchestrator/app/main.py",
+    "build:backend": "npm.cmd --prefix services/api-gateway run build",
+    "build:frontend": "npm.cmd --prefix apps/web run build",
+    "test:backend": "npm.cmd --prefix services/api-gateway run test",
+    "seed": "npm.cmd --prefix services/api-gateway run seed"
+  },
+  "keywords": [
+    "voice-ai",
+    "multi-tenant",
+    "llm-orchestration",
+    "commerce",
+    "conversational-commerce",
+    "hinglish",
+    "prompt-engineering"
+  ],
+  "author": "VoxaFlow Engineering",
+  "license": "MIT"
+}
