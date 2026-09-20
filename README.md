@@ -223,11 +223,3 @@ docker compose up --build
 * **FreshRoot Admin**: `admin@freshroot.com` / `Password@123` (Merchant C)
 
 ---
-
-## 12. Resume & Portfolio Talking Points
-
-* **Multi-Tenant Architecture**: Built database-level tenant isolation preventing data leakage.
-* **Deterministic Pricing**: Architected zero-LLM pricing arithmetic to guarantee financial integrity.
-* **Voice AI Pipeline**: Optimized STT/LLM/TTS latency budgets to achieve sub-second voice turns.
-* **Prompt Versioning & A/B Testing**: Implemented immutable version control and statistical win/loss benchmarking for prompt engineering.
-* **Extensible Adapter Layer**: Created provider-agnostic e-commerce interfaces supporting native stores and Shopify.
